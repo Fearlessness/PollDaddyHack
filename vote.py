@@ -94,8 +94,8 @@ def vote(form, value, times, wait_min = None, wait_max = None):
 poll_id = 0
 answer_id = 0
 number_of_votes = 10
-wait_min = None
-wait_max = None
+wait_min = 1
+wait_max = 5
 
 get_all_proxies()
 get_all_useragents()
